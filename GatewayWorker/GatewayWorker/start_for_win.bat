@@ -1,0 +1,2 @@
+php Applications\chatroom\start_register.php Applications\chatroom\start_gateway.php Applications\chatroom\start_businessworker.php
+pause

@@ -1,0 +1,304 @@
+2018-11-14 08:29:30 pid:1 Error: Class 'Firebase\JWT\JWT' not found in E:\www\workerman\cont5\server.php:22
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\cont5\server.php(69): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 08:29:30 pid:1 Worker process terminated
+2018-11-14 08:31:42 pid:1 Error: Class 'Firebase\JWT\JWT' not found in E:\www\workerman\cont5\server.php:22
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\cont5\server.php(69): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 08:31:42 pid:1 Worker process terminated
+2018-11-14 09:28:37 pid:1 Error: Class 'Firebase\JWT\JWT' not found in E:\www\workerman\cont5\server.php:22
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\cont5\server.php(69): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 09:28:37 pid:1 Worker process terminated
+2018-11-14 09:29:43 pid:1 Error: Class 'JWT' not found in E:\www\workerman\cont5\server.php:23
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\cont5\server.php(70): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 09:29:43 pid:1 Worker process terminated
+2018-11-14 09:31:37 pid:1 Error: Class 'JWT' not found in E:\www\workerman\cont5\server.php:23
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\cont5\server.php(70): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 09:31:37 pid:1 Worker process terminated
+2018-11-14 21:10:19 pid:1 Error: Class 'JWT' not found in E:\www\workerman\chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\chat\server.php(64): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 21:10:19 pid:1 Worker process terminated
+2018-11-14 21:14:42 pid:1 Error: Class 'JWT' not found in E:\www\workerman\chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\chat\server.php(64): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 21:14:42 pid:1 Worker process terminated
+2018-11-14 21:17:38 pid:1 Error: Class 'JWT' not found in E:\www\workerman\chat\server.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\chat\server.php(64): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 21:17:38 pid:1 Worker process terminated
+2018-11-14 21:19:27 pid:1 Error: Class 'Firebase\JWT\JWT' not found in E:\www\workerman\chat\server.php:17
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#1 E:\www\workerman\Workerman-master\Protocols\Websocket.php(393): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET /?token=eyJ...')
+#2 E:\www\workerman\Workerman-master\Protocols\Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#3 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('GET /?token=eyJ...', Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#7 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#8 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 E:\www\workerman\chat\server.php(65): Workerman\Worker::runAll()
+#11 {main}
+2018-11-14 21:19:27 pid:1 Worker process terminated
+2018-11-15 09:23:54 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':ghjgjh')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':ghjgjh')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 09:23:54 pid:1 Worker process terminated
+2018-11-15 09:42:31 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':sdfghj\n')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':sdfghj\n')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 09:42:31 pid:1 Worker process terminated
+2018-11-15 10:24:10 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':dfhgdfh')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':dfhgdfh')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 10:24:10 pid:1 Worker process terminated
+2018-11-15 10:27:11 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':xbcxcbv')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':xbcxcbv')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 10:27:11 pid:1 Worker process terminated
+2018-11-15 10:28:48 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':sdfgdsgsdf')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':sdfgdsgsdf')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 10:28:48 pid:1 Worker process terminated
+2018-11-15 10:32:08 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':fghjghj')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':fghjghj')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 10:32:08 pid:1 Worker process terminated
+2018-11-15 10:34:51 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':user')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':user')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 10:34:51 pid:1 Worker process terminated
+2018-11-15 10:38:53 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':fghjfgjj')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':fghjfgjj')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 10:38:53 pid:1 Worker process terminated
+2018-11-15 15:16:03 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':\xE6\xB3\x95\xE5\x9B\xBD\xE5\x93\xBC\xE5\x93\xBC\xE5\x94...')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':\xE6\xB3\x95\xE5\x9B\xBD\xE5\x93\xBC\xE5\x93\xBC\xE5\x94...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 15:16:03 pid:1 Worker process terminated
+2018-11-15 15:35:03 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':dgfhj')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':dgfhj')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 15:35:03 pid:1 Worker process terminated
+2018-11-15 15:49:28 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:88
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':dsfsafdffsdfa')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':dsfsafdffsdfa')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(96): Workerman\Worker::runAll()
+#9 {main}
+2018-11-15 15:49:28 pid:1 Worker process terminated
+2018-11-16 14:46:25 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:75
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':dfafdas')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':dfafdas')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(127): Workerman\Worker::runAll()
+#9 {main}
+2018-11-16 14:46:25 pid:1 Worker process terminated
+2018-11-16 16:15:20 pid:1 Error: Call to a member function send() on null in E:\www\workerman\chat\server.php:75
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), ':zhengyinan')
+#1 E:\www\workerman\Workerman-master\Connection\TcpConnection.php(658): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), ':zhengyinan')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#3 E:\www\workerman\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\chat\server.php(127): Workerman\Worker::runAll()
+#9 {main}
+2018-11-16 16:15:20 pid:1 Worker process terminated

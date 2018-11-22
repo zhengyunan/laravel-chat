@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+       用户名:<input v-model="username" type="text">
+       密码<input v-model="password" type="password">
+       <input @click="login" type="button" value="登录">
+    </div>
+</body>
+</html>
+<script src="vue.min.js"></script>
+<script src="axios.min.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            token:'',
+            username:'',
+            password:'',
+
+        },
+       
+        methods:{
+         login:function(){
+            //  调用登录接口
+            axios.post('http://localhost:9999/login.php', {
+                            username: this.username,
+                            password: this.password
+                        })
+                        .then(function (response) {
+                            if(response.data.code == 200)
+                            {
+                                localStorage.setItem('jwt_token', response.data.jwt)
+                                location.href="index.html"
+                            }
+                            else
+                            {
+                                alert(response.data.error)
+                            }
+                        })
+         }
+        }
+       // 当 vue 创建时调用
+    });
+</script>

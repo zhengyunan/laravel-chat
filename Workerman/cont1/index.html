@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ 
+</body>
+</html>
+<script>
+    var ws = new WebSocket('ws://127.0.0.1:8686')
+    ws.onopen = function(){
+        alert("链接成功");
+    }
+    ws.onmessage = function(e){
+        alert('收到消息'+e.data);
+    }
+</script>

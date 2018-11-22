@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="(v,k) in messages">
+                有人说：{{v}}
+            </li>
+        </ul>
+        <textarea v-model="content"></textarea>
+        <input type="button" @click="submit" value="发送">
+    </div>
+</body>
+</html>
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            ws:null,  // 保存 WebSocket 对象
+            content:'',
+            messages:[] // 保存所有接收的消息
+
+        },
+        created:function(){
+            this.ws = new WebSocket('ws://127.0.0.1:8686');
+            this.ws.onopen = this.open;
+            this.ws.onmessage = this.message;
+        },
+        methods:{
+          submit:function(){
+             this.ws.send(this.content);
+              this.content = '';
+          },
+          open:function(){
+            alert("链接成功");
+          },
+          message:function(e){
+            this.messages.push(e.data);
+          }
+        }
+       // 当 vue 创建时调用
+    });
+   
+</script>

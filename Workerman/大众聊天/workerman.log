@@ -1,0 +1,52 @@
+2018-11-12 18:11:35 pid:1 Error: Call to a member function send() on null in E:\www\workerman\cont2\server.php:7
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 E:\www\workerman\cont2\Workerman-master\Worker.php(2388): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 E:\www\workerman\cont2\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\cont2\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\cont2\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\cont2\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\cont2\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\cont2\server.php(17): Workerman\Worker::runAll()
+#9 {main}
+2018-11-12 18:11:35 pid:1 Worker process terminated
+2018-11-12 18:12:03 pid:1 Error: Call to a member function send() on null in E:\www\workerman\cont2\server.php:7
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 E:\www\workerman\cont2\Workerman-master\Worker.php(2388): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 E:\www\workerman\cont2\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\cont2\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\cont2\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\cont2\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\cont2\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\cont2\server.php(17): Workerman\Worker::runAll()
+#9 {main}
+2018-11-12 18:12:03 pid:1 Worker process terminated
+2018-11-12 18:14:00 pid:1 Error: Call to a member function send() on null in E:\www\workerman\cont2\server.php:7
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 E:\www\workerman\cont2\Workerman-master\Worker.php(2388): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 E:\www\workerman\cont2\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\cont2\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\cont2\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\cont2\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\cont2\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\cont2\server.php(17): Workerman\Worker::runAll()
+#9 {main}
+2018-11-12 18:14:00 pid:1 Worker process terminated
+2018-11-12 18:22:09 pid:1 Error: Call to a member function send() on null in E:\www\workerman\cont2\server.php:7
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 E:\www\workerman\cont2\Workerman-master\Worker.php(2388): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 E:\www\workerman\cont2\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#4 E:\www\workerman\cont2\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#5 E:\www\workerman\cont2\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#6 E:\www\workerman\cont2\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 E:\www\workerman\cont2\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 E:\www\workerman\cont2\server.php(17): Workerman\Worker::runAll()
+#9 {main}
+2018-11-12 18:22:09 pid:1 Worker process terminated

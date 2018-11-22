@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="(v,k) in messages">
+                有人说：{{v}}
+            </li>
+        </ul>
+        <select v-model="to">
+            <option value="">发送给所有人</option>
+            <option :value="k" v-for="(v,k) in userList">{{v}}</option>
+        </select>
+        <textarea v-model="content"></textarea>
+        <input type="button" @click="submit" value="发送">
+        <input type="button" @click="loginout" value="退出">
+    </div>
+</body>
+</html>
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            to:'',
+            ws:null,  // 保存 WebSocket 对象
+            content:'',
+            messages:[], // 保存所有接收的消息
+            userList:[]
+        },
+        created:function(){
+            var token = localStorage.getItem('jwt_token')
+            console.log(token);
+            if(token==undefined){
+                location.href = "login.html"
+            }else{
+                
+                this.ws = new WebSocket('ws://127.0.0.1:8686?token='+token);
+                this.ws.onopen = this.open;
+                this.ws.onmessage = this.message;
+                this.ws.onerror = this.error
+            }
+          
+            
+        },
+        methods:{
+         loginout:function(){
+             this.ws.close()
+            localStorage.removeItem('jwt_token')
+            location.href = "login.html"
+          },
+          error:function(){
+             location.href = "login.html"
+          },
+          submit:function(){
+              if(this.to==''){
+                this.ws.send('all:'+this.content)
+              }else{
+                this.ws.send(this.to+':'+this.content)
+              }
+              this.content = '';
+          },
+          open:function(){
+            alert("链接成功");
+          },
+          message:function(e){
+            //   解析json
+           let data = JSON.parse(e.data)
+           if(data.type=='users'){
+                 this.userList = data.users
+                 console.log(this.userList)
+           }else{
+                 this.messages.push(data.message)
+            }
+            // 把接受的消息放在页面中
+        //    this.userList = users
+          }
+        }
+       // 当 vue 创建时调用
+    });
+
+    // 从百度里找到的一个可以接收所有 URL 上?后的参数的函数
+    // 这个函数会解析 url 上的参数并返回一个对象，保存所有的参数
+    // 返回数据：{id:1}
+    function GetRequest() {   
+    var url = location.search; //获取url中"?"符后的字串   
+    var theRequest = new Object();   
+    if (url.indexOf("?") != -1) {   
+        var str = url.substr(1);   
+        strs = str.split("&");   
+        for(var i = 0; i < strs.length; i ++) {   
+            theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);   
+        }   
+    }   
+    return theRequest;   
+    }   
+
+//   console.log(GetRequest());
+   
+</script>
